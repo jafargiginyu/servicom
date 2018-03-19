@@ -1,0 +1,125 @@
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+.navbar{
+  background-color: blue;
+}
+
+.font{
+  font-family: 'Monoton', cursive;
+}
+
+.fon{
+  line-height: 2em;
+  text-align: justify;
+  font-size: 16px;
+
+}
+
+
+.imagecircle {
+  border-radius: 50%;
+
+}
+
+
+.pic{
+  width: 200px;
+  height: px;
+  border-radius: 50%;
+
+}
+.picbig{
+  position: absolute;
+  width: 0px;
+  transition:width 0.3s linear 0s;
+  z-index: 10px;
+  border-radius: 50%;
+
+}
+.pic:hover + .picbig{
+  width: 400px;
+  height: 400px;
+}
+
+
+
+
+
+.pic2{
+  width: 210px;
+  height: 200px;
+  border-radius: 50%;
+
+}
+.picbig2{
+  position: absolute;
+  width: 0px;
+  transition:width 0.3s linear 0s;
+  z-index: 10px;
+  border-radius: 50%;
+
+}
+.pic2:hover + .picbig2{
+  width: 400px;
+  height: 400px;
+}
+
+
+
+
+
+.btnn{
+	width: 150px;
+
+}
+
+.btnr{
+	width: 100px;
+}
+
+.font{
+	font-family: 'Fjalla One', sans-serif;
+font-family: 'Questrial', sans-serif;
+}
+
+.navbarbottom{
+
+	background: maroon; 
+	color: white;
+}
+
+
+
+.navbartop{
+
+	background: maroon; 
+	color: white;
+}
+
+
+
+.h4{
+	text-align: center;
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+.picpaddin{
+	padding-left: 50PX;
+}
+
+.picpaddin2{
+	padding-left: 40PX;
+}
+
+.p{
+	padding-top: 10px;
+	font-size: 20px;
+}
+
+
+.link{
+
+	background-color: skyblue;
+}
